@@ -1,0 +1,105 @@
+{
+  "_comment": "FIXTURE only — invented documents for merge unit tests. Not live Oura data.",
+  "dailySleep": [
+    {
+      "id": "sleep-2026-11-10",
+      "day": "2026-11-10",
+      "score": 82,
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "contributors": {
+        "deep_sleep": 70,
+        "efficiency": 80,
+        "latency": 75,
+        "rem_sleep": 60,
+        "restfulness": 85,
+        "timing": 90,
+        "total_sleep": 78
+      }
+    }
+  ],
+  "dailyReadiness": [
+    {
+      "id": "ready-2026-11-10",
+      "day": "2026-11-10",
+      "score": 71,
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "contributors": {
+        "activity_balance": 80,
+        "body_temperature": 90,
+        "hrv_balance": 60,
+        "previous_day_activity": 70,
+        "previous_night": 75,
+        "recovery_index": 65,
+        "resting_heart_rate": 72,
+        "sleep_balance": 68,
+        "sleep_regularity": 80
+      }
+    }
+  ],
+  "dailyActivity": [
+    {
+      "id": "act-2026-11-10",
+      "day": "2026-11-10",
+      "score": 88,
+      "steps": 10432,
+      "timestamp": "2026-11-10T04:00:00+00:00",
+      "contributors": {
+        "meet_daily_targets": 80,
+        "move_every_hour": 90,
+        "recovery_time": 70,
+        "stay_active": 85,
+        "training_frequency": 75,
+        "training_volume": 70
+      }
+    },
+    {
+      "id": "act-2026-11-11",
+      "day": "2026-11-11",
+      "score": 50,
+      "steps": 2100,
+      "timestamp": "2026-11-11T04:00:00+00:00",
+      "contributors": {
+        "meet_daily_targets": 40,
+        "move_every_hour": 50,
+        "recovery_time": 60,
+        "stay_active": 45,
+        "training_frequency": 70,
+        "training_volume": 55
+      }
+    }
+  ],
+  "sleepPeriods": [
+    {
+      "id": "period-long",
+      "day": "2026-11-10",
+      "type": "long_sleep",
+      "total_sleep_duration": 25200,
+      "average_hrv": 41,
+      "lowest_heart_rate": 52
+    },
+    {
+      "id": "period-nap",
+      "day": "2026-11-10",
+      "type": "sleep",
+      "total_sleep_duration": 1800,
+      "average_hrv": 30,
+      "lowest_heart_rate": 58
+    },
+    {
+      "id": "period-rest-ignored",
+      "day": "2026-11-10",
+      "type": "rest",
+      "total_sleep_duration": 3600,
+      "average_hrv": 99,
+      "lowest_heart_rate": 40
+    },
+    {
+      "id": "period-deleted-ignored",
+      "day": "2026-11-10",
+      "type": "deleted",
+      "total_sleep_duration": 7200,
+      "average_hrv": 1,
+      "lowest_heart_rate": 1
+    }
+  ]
+}

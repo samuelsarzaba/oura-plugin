@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "oura",
+  "version": "0.1.0",
+  "description": "Read a user's Oura Ring daily sleep, readiness, and activity summaries via the Oura API v2.",
+  "author": {
+    "name": "Samuel Sarzaba"
+  },
+  "license": "MIT",
+  "keywords": ["oura", "sleep", "readiness", "activity", "recovery"]
+}

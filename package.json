@@ -1,0 +1,10 @@
+{
+  "name": "oura",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Oura Ring API v2 Agent Plugin (MCP server + skill)",
+  "engines": {
+    "node": ">=18"
+  }
+}
